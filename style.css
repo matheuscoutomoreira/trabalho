@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(backiee-157186-landscape.jpg);
+    background-size: cover;
+    
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+.links a:hover {
+    background-color:green;
+}
+
+p {
+    margin: 20px;
+    font-size:20px;
+    font-family:Arial,  sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: white; 
+    border-radius: 4px;
+   
+}
+h1,h3,h4{color:white;  /* define a cor o tipo de fonte e aonde o texto vai ficar*/
+font-family: Arial,  sans-serif;
+text-align: center;}
+
+img{
+    width: 600px; /* Defina a largura desejada */
+    height: auto;
+     border: 2px solid black;
+}
+
+
+
+.container12 {
+    text-align: center; 
+}
+
+.imagem {
+    display: inline-block;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.texto {
+   
+    text-align: center    ;
+    display: inline block;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px;
+}
